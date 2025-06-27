@@ -49,7 +49,7 @@ This is a responsive **URL Shortener Web Application** built with **React (TypeS
 
 2. **Create a `.env` file** in the root:
    ```env
-   VITE_ACCESS_TOKEN=your_access_token_here
+   VITE_ACCESS_TOKEN=my_access_token_here
    ```
 
 3. **Start development server:**
@@ -67,16 +67,6 @@ Located under the `Logging Middleware/` folder. It exports a `Log()` function th
 ```ts
 Log("frontend", "info", "component", "Message here");
 ```
-
----
-
-## 📸 Screenshots (Required for Submission)
-Include in submission:
-- [ ] URL Shortener Page — mobile & desktop
-- [ ] Stats Page with metadata — mobile & desktop
-- [ ] Redirect working — opening short URL
-- [ ] Devtools Network tab showing log call to API
-- [ ] Terminal screenshot of `npm run dev` on port 3000
 
 ---
 

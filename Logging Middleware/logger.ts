@@ -14,13 +14,14 @@ type Package =
   | "config"
   | "middleware"
   | "utils";
+
 export async function Log(
-  level: "info" | "debug" | "warn" | "error" | "fatal",
-  pkg: string,
+  level: Level,
+  pkg: Package,
   message: string
 ): Promise<void> {
   const body = {
-    stack: "frontend",
+    stack: "frontend" as Stack,
     level,
     package: pkg,
     message,
